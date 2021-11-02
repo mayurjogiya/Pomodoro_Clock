@@ -1,13 +1,77 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  background-color: transparent;
+  border: transparent;
 }
+
+button :hover {
+  transform: scale(1.4);
+}
+
+button:active {
+  transform: scale(0.8);
+}
+
+body {
+  background-color: #39A6A3;
+}
+
+.head {
+  text-align: center;
+  margin: 30px 20px;
+}
+
+.length-control {
+  padding: 20px;
+}
+.length-control div {
+  padding: 10px;
+}
+.length-control div button {
+  padding: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#timers {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #BF1363;
+  border: 4px solid #231E23;
+  border-radius: 15px;
+  width: 20%;
+  margin: 20px auto;
+  padding: 30px 20px;
+}
+#timers div > h1, #timers h2 {
+  margin: 5px 0px;
+}
+#timers button {
+  margin: 10px;
+}
+
+#ownerInfo {
+  text-align: center;
+  width: 100%;
+  background-color: #00ead3;
+  padding: 10px 0px;
+  bottom: 0px;
+  font-size: x-large;
+  font-family: "Hammersmith One", sans-serif;
+}
+#ownerInfo #name {
+  font-family: "Lobster", cursive;
+}
+
+/*# sourceMappingURL=style.css.map */
